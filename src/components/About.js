@@ -1,5 +1,8 @@
 import React from 'react'
 
+import './style.css';
+
+
 export default function About() {
     return (
         <section id="about" className="about">
@@ -18,7 +21,7 @@ export default function About() {
                 </div>
                 <div className="row">
                     <div className="col-lg-4" data-aos="fade-right">
-                        <img src="assets/img/Pri.JPG" className="img-fluid rounded-circle " alt=""></img>
+                        <img src={process.env.PUBLIC_URL +"/images/Pri.JPG" }  className="img-fluid rounded-circle " alt=""></img>
                     </div>
                     <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
 
@@ -37,7 +40,7 @@ export default function About() {
 
                             </div >
                             <div className="col-lg-6">
-                                <a id="resume" href="assets/resume/Priyanka_Singh_Resume.pdf" target="_blank"
+                                <a id="resume" href= "assets/resume/Priyanka_Singh_Resume.pdf" target="_blank"
                                     download="Priyanka_Singh_Resume">
                                     <button className="mt-2 btn btn-info">Download
                                     Resume

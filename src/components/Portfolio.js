@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 
 
 export default function Portfolio() {
@@ -19,7 +18,7 @@ export default function Portfolio() {
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
               <img
-                src="assets/img/portfolio/booktivist-App.jpg"
+                src="images/portfolio/booktivist-App.jpg"
                 className="img-fluid"
                 alt=""
               ></img>

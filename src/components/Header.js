@@ -1,10 +1,11 @@
 import React from 'react'
 import Nav from "./Nav"
-import "./style.css";
+import './style.css';
+
 
 export default function Header() {
     return (
-        <header>
+        <header id="header">
             <div className="d-flex flex-column">
                 <div className="profile">
                     <img src={process.env.PUBLIC_URL +"/images/Pri.JPG" }  alt="" className="img-fluid rounded-circle"></img>
