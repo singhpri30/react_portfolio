@@ -1,12 +1,13 @@
 import React from 'react'
 import Nav from "./Nav"
+import "./style.css";
 
 export default function Header() {
     return (
         <header>
             <div className="d-flex flex-column">
                 <div className="profile">
-                    <img src="" alt="" className="img-fluid rounded-circle"></img>
+                    <img src={process.env.PUBLIC_URL +"/images/Pri.JPG" }  alt="" className="img-fluid rounded-circle"></img>
                     <h1 className="text-light"><a href="index.html">Priyanka Singh</a></h1>
                     <h5 className="text-light ml-2"><em>Full Stack Web Developer</em></h5>
                     <div className="social-links mt-3 text-center">
